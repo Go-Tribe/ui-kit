@@ -9,7 +9,9 @@
   "scripts": {
     "dev:nuxt": "pnpm --filter @go-tribe/ui dev",
     "build:nuxt": "pnpm --filter @go-tribe/ui build",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.vue",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.vue --fix"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +19,13 @@
   "packageManager": "pnpm@10.11.0",
   "devDependencies": {
     "husky": "^9.0.11",
-    "lint-staged": "^15.2.2"
+    "lint-staged": "^15.2.2",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.22.0",
+    "prettier": "^3.2.5"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,vue}": [

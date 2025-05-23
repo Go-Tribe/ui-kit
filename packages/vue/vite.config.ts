@@ -25,7 +25,7 @@ export default defineConfig({
     lib: {
       entry: './components/index.ts',
       name: 'go-tribe-ui-nuxt',
-      fileName: (format: any) => `go-tribe-ui-nuxt.${format}.js`
+      fileName: (format) => `go-tribe-ui-nuxt.${format}.js`
     },
     rollupOptions: {
       external: ['vue'],
