@@ -7,8 +7,8 @@
   ],
   "main": "index.js",
   "scripts": {
-    "dev:nuxt": "pnpm --filter @go-tribe/ui dev",
-    "build:nuxt": "pnpm --filter @go-tribe/ui build",
+    "dev:vue": "pnpm --filter @go-tribe/ui dev",
+    "build:vue": "pnpm --filter @go-tribe/ui build",
     "prepare": "husky install",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.vue",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.vue --fix"
