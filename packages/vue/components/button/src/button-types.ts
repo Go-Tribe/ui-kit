@@ -1,7 +1,9 @@
 export const ButtonName = 'gt-button'
 export type ButtonProps = {
-    type?: 'primary' | 'secondary' | 'tertiary' | 'danger' | 'link'
+    as?: string,
+    type?: 'error' | 'primary' | 'secondary' | 'success' | 'info' | 'warning' | 'neutral'
     size?: 'small' | 'medium' | 'large'
+    variant?: 'link' | 'solid' | 'outline' | 'soft' | 'subtle' | 'ghost'
     disabled?: boolean
     loading?: boolean
     block?: boolean

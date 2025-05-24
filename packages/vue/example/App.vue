@@ -1,8 +1,5 @@
 <template>
-    <div class="gt:text-red-500 gt:text-2xl">
-        22
-        <Button>123</Button>
-    </div>
+    <gt-button>123</gt-button>
 </template>
 <script setup lang="ts">
 </script>
